@@ -3,6 +3,8 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
+remote_theme: "CloudCannon/fur-jekyll-template"
+
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://pandascompany.com"
 baseurl: ""
@@ -17,7 +19,7 @@ baseurl: ""
 title: Pandas Co.
 
 # Short description of your site
-description: Pandas Co. is a small family owned business that serves to bring the highest quality lifestyle products to you.
+description: We are a small family owned business that serves to bring the highest quality lifestyle products to you.
 
 # --- Navigation bar options --- #
 
