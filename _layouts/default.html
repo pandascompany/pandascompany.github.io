@@ -23,9 +23,9 @@
 		{% endif %}
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-		{% if site.snipcart_key %}
+		<!-- {% if site.snipcart_key %}
 			<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart_key }}"></script>
-		{% endif %}
+		{% endif %} -->
 	</head>
 	<body>
 		<header>
@@ -56,14 +56,11 @@
 						<div class="company-name">{% include logo.html %} <span>{{ site.title }}</span></div>
 						<p class="editable">
 							Pandas Co. is a small family owned business founded in 2017, and we aim to only bring the highest quality lifestyle products to our customers.
-							<div><br></div>
-							<div>
-								We appreciate all inputs from our customers. Each and every review and comment will be taken seriously, so serious that we are even willing to go as far as to modify a product completely to suit you (our customers) better!
-							</div>
-							<div><br></div>
-							<div>
-								Thanks for dropping by, and happy shopping!
-							</div>
+							<br/><br/>
+							We appreciate all inputs from our customers. 
+							Each and every review and comment will be taken seriously, so serious that we are even willing to go as far as to modify a product completely to suit <b>YOU</b> better!
+							<br/><br/>
+							Thanks for dropping by, and happy shopping!
 						</p>
 					</li>
 
@@ -72,30 +69,30 @@
 						<ul>
 							<li><a href="/">Products</a></li>
 							<li><a href="/about/">Our Story</a></li>
-							<li><a href="/contact/">Contact</a></li>
+							<!-- <li><a href="/contact/">Contact</a></li> -->
 						</ul>
 					</li>
 
-					<li class="footer-nav">
+					<!-- <li class="footer-nav">
 						<h4>Help</h4>
 						<ul>
 							<li><a href="/shipping/">Shipping</a></li>
 							<li><a href="/returns/">Returns</a></li>
 						</ul>
-					</li>
+					</li> -->
 
 					<li>
 						<h4>Contact Us</h4>
-						<p>Need help with something? <a href="/contact/">Get in touch</a>.
+						<p>Need help with something? Please do not hesitate to email us at
 						<p class="email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
 						<p><a href="tel:{{ site.author.phone }}">{{ site.author.phone }}</a></p>
 
-						<div class="social-icons">
+						<!-- <div class="social-icons">
 							<a class="facebook" href="/">{% include social-icon.html icon="Facebook2" %}</a>
 							<a class="twitter" href="/">{% include social-icon.html icon="Twitter" %}</a>
 							<a class="google-plus" href="/">{% include social-icon.html icon="Google Plus" %}</a>
 							<a class="linkedin" href="/">{% include social-icon.html icon="LinkedIn" %}</a>
-						</div>
+						</div> -->
 					</li>
 				</ul>
 				<p class="copyright">All Rights Reserved &copy; 2017 {{ site.title }} Template by <a href="https://cloudcannon.com">CloudCannon</a></p>

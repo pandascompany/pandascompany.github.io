@@ -10,6 +10,7 @@ layout: default
 					<h3>{{ page.name }}</h3>
 					{{ page.description_markdown | markdownify }}
 
+					<!-- Currency -->
 					<h4>${{ page.price }}</h4>
 					<div class="button">{% include snipcart-button.html product=page %}</div>
 				</div>
@@ -18,5 +19,5 @@ layout: default
 	</section>
 </div>
 
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="{{ site.api_key }}" id="snipcart"></script>
+<!-- <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="{{ site.api_key }}" id="snipcart"></script> -->
 <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
