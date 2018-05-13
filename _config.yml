@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Fur
-url: "http://turquoise-rook.cloudvent.net/"
+title: Pandas Co.
+url: "https://pandascompany.github.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -12,14 +12,14 @@ snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5O
 logo: /siteicon.png
 description: Fur t-shirt store
 author:
-  name: fur
-  email: fur@example.com
-  twitter: fur # twitter username without the @ symbol
-  phone: "+1 23456789"
-social:
-  name: Fur Template
-  links:
-    - https://github.com/CloudCannon/fur-jekyll-template
+  name: Pandas Co.
+  email: hello@pandascompany.com
+#   twitter: fur # twitter username without the @ symbol
+#   phone: "+1 23456789"
+# social:
+#   name: Fur Template
+#   links:
+#     - https://github.com/CloudCannon/fur-jekyll-template
 
 # -----
 # Build
